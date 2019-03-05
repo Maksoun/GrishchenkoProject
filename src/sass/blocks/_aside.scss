@@ -1,0 +1,40 @@
+aside {
+	width: 180px;
+	section {
+		h5 {
+			font-weight: normal;
+			border-bottom: 1px dashed rgb(192, 192, 192);
+			text-transform: uppercase;
+			font-size: .8em;
+			margin-top: 35px;
+			margin-bottom: 10px;
+		}
+		p {
+			font-size: .7em;
+			font-style: italic;
+			margin-top: 10px;
+					
+			a {
+				padding: 4px 30px 4px 40px;
+				text-decoration: none;
+				color: $link_color;
+				margin-top: 10px;
+				margin-left: 5px;
+				border: 1px solid rgba(192, 192, 192, .7);
+				border-radius: 5px;
+				text-align: center;
+			}
+			a:hover {
+				color: $link_focus-color;
+				background-color: #D9EFEC;
+			}
+			.button-twitter-16 {
+				background: url(../../public/images/icon-twitter-16.png) no-repeat 7% 50%;
+			}
+			.button-facebook-16 {
+				background: url(../../public/images/icon-facebook-16.png) no-repeat 7% 50%;
+			}
+		} 
+	}
+			
+}

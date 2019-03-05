@@ -1,0 +1,52 @@
+@media (max-width: 480px) {
+	.wrap {
+		@include wrap-styles(320px);
+
+		header {
+			.img-href {
+				img {
+					width: 120px;
+
+
+					position: absolute;
+					margin-top: 65px;
+					margin-left: 100px;
+				}
+			}
+			nav {
+				ul {
+					list-style-type: none;
+					width: 320px;
+					height: 50px;
+					display: flex;
+					flex-direction: row;
+					justify-content: space-between;
+					align-items: center;
+					li {
+						font-size: .8em;
+						a {
+							text-decoration: none;
+							color: $link_color;
+							font-style: italic;
+						}
+						a:hover {
+							color: $link_focus-color;
+						}
+					}
+				} 
+				.decoration-line {
+					height: 1px;
+					width: 100%;
+					background-color: rgb(192, 192, 192);
+					margin-bottom: 150px;
+				}
+			}
+
+		}
+		aside {
+			display: none;
+		}
+		
+	}
+
+}

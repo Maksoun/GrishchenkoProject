@@ -1,0 +1,82 @@
+.aside-right {
+			margin: 0 auto;
+			.rss {
+				margin-top: 45px;
+				margin-bottom: 30px;
+				.txt {
+					background: url(../../public/images/icon-aside-rss.png) no-repeat left -44px;
+					padding-left: 22px;
+				}
+				a {
+					color: $link_color;
+					text-decoration: none;
+				}
+				a:hover {
+					color: $link_focus-color;
+				}
+				.qu {
+					margin-left: 20px;
+					background-color: rgba(192, 192, 192, .2);
+					border: 1px solid rgba(192, 192, 192, .2);
+					padding: 0 9px;
+					border-radius: 50%;
+				}
+			}
+			h4 {
+				border-bottom: 1px dashed rgb(192, 192, 192);
+				font-weight: normal;
+				font-style: italic;
+				color: rgb(192, 192, 192);
+			}
+			.nav_categories {
+				list-style-type: none;
+				margin: 15px 0; 
+				a {
+					color: $link_color;
+					text-decoration: none;
+				}
+				a:hover {
+					color: $link_focus-color;
+				}
+			}
+			.search {
+				margin: 35px 0;	
+				form {
+					fieldset {
+						display: inline-block;
+						border: none;
+						input {
+							width: 170px;
+							height: 30px;
+							
+						}
+						.btn-go {
+							width: 50px;
+							margin-left: 20px;
+							border-radius: 5px;
+							font-weight: bold;
+						}
+					}
+				}
+			}
+			p {
+				font-size: 0.85em;
+				color: rgb(192, 192, 192);
+				margin: 10px 0;
+			}
+			.newsletter {
+				fieldset {
+					border: none;
+					input {
+						width: 170px;
+						height: 30px;
+					}
+					.sub-btn {
+						width: 90px;
+						border-radius: 5px;
+						font-weight: bold;
+						margin: 10px 0;
+					}
+				}
+			}
+		}

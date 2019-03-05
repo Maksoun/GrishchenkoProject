@@ -1,0 +1,109 @@
+.gallery {
+	.blog-header {
+			border-bottom: 1px solid rgb(192, 192, 192);
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			h1 {
+				font-size: 2.5em;
+				font-weight: normal;
+				background: no-repeat url(../../public/images/page-tastemakers.png) 0 -99px;
+				padding-left: 60px;
+			}
+			p {
+				font-style: italic;
+				padding: 10px 7px 30px 7px;
+			}
+	}
+	.articles {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+		margin-top: 30px;
+		article {
+			margin-bottom: 30px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			width: 290px;
+			padding: 9px;
+			border: 1px solid rgba(192, 192, 192, .7);
+			a {
+				text-decoration: none;
+				color: $link_color; 
+				img {
+					width: 100%;
+				}
+			}
+			a:hover {
+				color: $link_focus-color;
+				img {
+					opacity: 0.75;
+				}
+			}
+			h1 {
+				width: 100%;
+				border-bottom: 0.75px dashed rgba(192, 192, 192, .7);
+				margin: 10px 0;
+				padding-bottom: 10px;
+				font-weight: normal;
+			}
+			p {
+				font-size: 0.85em;
+			}
+			.facebook-like {
+				margin-left: 20px;
+				margin-top: 7px;
+				margin-bottom: 30px;
+				height: 20px;
+				width: 70px;
+				background: #4267b2;
+				border: 1px solid #4267b2;
+				border-radius: 4px;
+				font-size: 90%;
+				text-align: center;
+				color: #fff;
+				cursor: pointer;
+				font-family: Helvetica, Arial, sans-serif;
+			}
+			.facebook-like:hover {
+				background: #424bb2;
+			}
+			footer {
+				padding: 0;
+				.fn-url-girl {
+					background: url(../../public/images/icon-author-girl.png) no-repeat 10px bottom;
+					margin-left: -9px;
+					margin-right: -9px;
+					padding-top: 5px;
+					padding-left: 35px;
+					border-top: 0.75px dashed rgba(192, 192, 192, .7);
+					font-size: 70%;
+
+				}	
+			}
+			
+		}
+	}
+	.pagination {
+		width: 85%;
+
+		float: right;
+		margin-top: 35px;
+		margin-bottom: 35px;
+		display: flex;
+		justify-content: flex-end;
+		a {
+		text-decoration: none;
+		padding: 5px 20px;
+		border: 1px solid rgba(192, 192, 192, .7);
+		border-radius: 4px;
+		color: $link_color;
+		}
+		a:hover {
+		color: $link_focus-color;
+		background-color: #96CEC4;
+		}
+	}
+
+}

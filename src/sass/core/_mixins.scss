@@ -1,0 +1,5 @@
+@mixin wrap-styles($width) {
+	margin: 0 auto;
+	width: $width;
+	font-family: ff-tisa-web-pro, Georgia, sans-serif;
+}
