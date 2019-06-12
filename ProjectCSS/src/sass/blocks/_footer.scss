@@ -1,0 +1,71 @@
+footer {
+			padding-bottom: 20px;
+			.decoration-line {
+				height: 1px;
+				width: 100%;
+				background-color: rgb(192, 192, 192);
+				margin-top: 40px;
+				margin-bottom: 25px;
+			}
+			p {
+				padding-left: 10px;
+				font-size: .7em;
+				color: rgb(192, 192, 192);
+				a {
+					text-decoration: none;
+					color: $link_color;
+				}
+				a:hover {
+					color: $link_focus-color;
+				}
+			}
+			.social {
+				float: right;
+				margin-top: -35px;
+				ul {
+					list-style-type: none;
+					display: flex;
+					flex-direction: row;
+					.twitter {
+						a{
+							display: block;
+							width: 32px;
+							height: 32px;
+							text-indent: -999em;
+							opacity: .4;
+							background: url(../../public/images/icon-twitter.png) no-repeat 50% 1px;
+						}
+						a:hover {
+							opacity: 1;
+						}
+					}
+					.facebook {
+						a{
+							display: block;
+							width: 32px;
+							height: 32px;
+							text-indent: -999em;
+							opacity: .4;
+							background: url(../../public/images/icon-facebook.png) no-repeat 50% 1px;
+						}
+						a:hover {
+							opacity: 1;
+						}
+					}
+					.rss {
+						a{
+							display: block;
+							width: 32px;
+							height: 32px;
+							text-indent: -999em;
+							opacity: .4;
+							background: url(../../public/images/icon-rss.png) no-repeat 50% 1px;
+						}
+						a:hover {
+							opacity: 1;
+						}
+					}
+
+				}
+			}
+		}
